@@ -31,11 +31,7 @@ class Player {
     });
   }
 
-  updateCount(count) {
-    database.ref("/").update({
-      playerCount: count
-    });
-  }
+//criar função de update count
 
   update(){
 
