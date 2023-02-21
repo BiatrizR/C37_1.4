@@ -15,19 +15,14 @@ class Game {
   }
 
   start() {
-    player = new Player();
-    playerCount = player.getCount();
-
-    form = new Form();
-    form.display();
+   // CHAMAR PLAYER 
+    
+    //CHAMAR FORM
 
     car1 = createSprite(width/2 - 50, height - 100);
     car1.addImage("car1", car1_img);
     car1.sale = 0.08;
 
-    car2 = createSprite(width/2 - 100, height - 100);
-    car2.addImage("car2", car2_img);
-    car2.sale = 0.08;
   }
 
 
