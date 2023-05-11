@@ -1,36 +1,21 @@
 class Form {
   constructor() {
-    // Criar input o botões
+    //! CRIE OS ELEMENTOS DA CLASSE
+    
+   
   }
 
   setElementsPosition() {
-   //posicionar os elementos
-  }
+    //!DEFINA A POSIÇÃO DOS ELEMENTOS
   
-  setElementsStyle() {
-  //Estilizar
+   
   }
 
-  hide() {
-   // this.greeting.hide();
-    //this.playButton.hide();
-    //this.input.hide();
-  }
-  handleMousePressed() {
-     this.playButton.mousePressed(() => {
-       //esconder botão e input
-     
-    /* var message = `
-      Olá ${this.input.value()}
-      </br>espere o outro jogador entrar...`;
-      this.greeting.html(message); */
-      playerCount += 1;
-    
-       //adicioanr chamada dos valores
-    });
-  }
 
   display() {
-    //chamar as funções criadas
+    //!  CHAME A FUNÇÃO DE POSIÇÃO DOS ELEMENTOS
+    this.setElementsPosition();
+    //! 5 chamar classe do form no game.js
+  
   }
 }
