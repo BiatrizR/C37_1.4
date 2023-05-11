@@ -8,7 +8,7 @@ var cars = [];
 
 
 function preload() {
-  backgroundImage = loadImage("./assets/planodefundo.png");
+  
   car1_img = loadImage ("assets/car1.png");
   car2_img = loadImage("assets/car2.png");
   track = loadImage ("assets/track.png");
@@ -17,15 +17,12 @@ function preload() {
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
-  database = firebase.database();
-  game = new Game();
-  game.getState();
-  game.start();
+//banco de dados e Classes
   
 }
 
 function draw() {
-  background(backgroundImage);
+  background(0);
 
   //condicional
 }
